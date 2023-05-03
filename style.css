@@ -11,18 +11,42 @@ body{
 
 .area-cabecalho{
     background: #0c0c0c;
-    font-size: 2em;
-    padding: 20px;
+    padding: 15px;
+    text-align: center;
 }
 
 h1{
     text-align: center;
     color: #f7b600;
-    font-weight: 800;
+    font-size: 2.5em;
 }
 
 #cor{
     color: whitesmoke;
+}
+
+.area-logo .area-menu{
+    padding: 8px;
+}
+
+.area-menu{
+    padding: 15px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.area-menu a:link{
+    color: whitesmoke;
+}
+
+.area-menu a:hover{
+    background: white;
+    color: #f7b600;
 }
 
 .area-pricipal{
@@ -42,18 +66,25 @@ h1{
 }
 
 .poema{
-    padding:10px;
-    margin-bottom: 10px;
+    padding:20px;
+    margin-bottom: 20px;
     background: whitesmoke;
     border-radius: 15px;
     box-shadow: 0px 5px 10px;
 }
 
+.poema a{
+    display: block;
+    padding-top: 10px;
+    color: #009cf7;
+}
+
+.poema a:hover{
+    text-decoration: underline;
+}
+
 h2{
     color: #f7b600;
-    padding-bottom:5px;
-    font-size:1.5em ;
-    font-weight: 700;
 }
 
 p{
@@ -62,17 +93,7 @@ p{
     color: #0c0c0c;
 }
 
-a{
-    display: flex;
-    text-decoration: none;
-    color: #3b3b3b;
-    align-items: center;
-    justify-content: center;
-}
 
-a:hover{
-    text-decoration: underline;
-}
 
 .poemas-recentes{
     height: 100px;
@@ -99,9 +120,9 @@ a:hover{
 }
 
 #rodape{
-    text-align: center;
     clear: both;
-    background: white;
+    text-align: center;
+    background: #ccc;
     margin-top: 850px;
     padding:15px;
     border-radius: 8px;
